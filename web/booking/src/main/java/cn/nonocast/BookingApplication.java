@@ -9,9 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BookingApplication {
 	@RequestMapping("/")
-	public String home() {
-		return "quick booking system";
-	}
+	public String home() { return "hello world"; }
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(BookingApplication.class, args);
